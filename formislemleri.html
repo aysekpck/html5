@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+
+</head>
+<body>
+    <h1>Üye Kayit Formu </h1>
+    <form name="kayit" action="kayit.php" method= "GET">
+        Ad Soyad: <input type="text" name="adsoyad">
+        <br>
+        <input type="submit">
+    </form>
+
+    <h1>Üye Kayit Formu</h1>
+<form name=" kayit" action="kayit.php" method="GET">
+    Ad Soyad:
+    <input type="text" name=" adsoyad" id="idadsoyad"
+    size="20" maxlength="30" required>
+    <br>
+    <input type="submit" value="Tamam">
+    <input type="reset" value="Temizle">
+</form>
+
+    <h1>Üye Kayit Formu</h1>
+<form name="kayit" action="kayit.php" method="GET">
+    Ad Soyad:
+    <input type="text" name="adsoyad" id="idadsoyad"
+     size="20" maxlength="30" required>
+    <br>
+    Email:
+    <input type="email" name="email" id=email required>
+    <br>
+    Web Sitesi:
+    <input type="ur1" name="adres" id="adres">
+    <br>
+    Yaşınız:
+    <input type="number" name="yas" id="yas" required>
+    <br>
+    <br>
+    <input type="submit" value="Tamam">
+    <input type="reset" value="Temizle">
+</form>
+<br>
+<!-- Tablo ile form hizalama-->
+<h1> Üye Kayıt Formu</h1>
+<form name="kayit" action="kayit.aspx" method="GET">
+    <table>
+        <tr><td>Ad soyad:</td><td><input type="text" name="adsoyad"></td></tr>
+        <tr><td>Email:</td><td><input type="email" name="email"></td></tr>
+        <tr><td></td><td><input type="submit" ><input type="reset"></td></tr>
+    
+    </table>
+</form>
+<br>
+<!--Form Özellikleri-->
+<h1>Form Özellikleri</h1>
+<form autocomplete="on">
+    Ad Soyad:<input type="text" size="15" maxlength="50"
+    required name="adsoyad" id="adsoyad"
+    autofocus placeholder="ad soyad yaz">
+
+</form>
+<br>
+<!--Metin Alanı-->
+<form autocomplete="on">
+    Ad Soyad: <input type="text">
+    <br>
+    E-mail: <input type="email">
+    <br>
+    Öneri: <textarea name="oneri" rows="5" cols=""></textarea>
+    <br
+    <input type="submit"><input type="reset">
+</form>
+<br>
+<!--Onay Kutusu(Checkbox)-->
+<h1>Onay Kutusu</h1>
+<form name="onay">
+    <input type="checkbox" name="bulten"> Bultene abone ol
+    <br>
+    <input type="checkbox" name="medeni"> Evliyim
+    <br>
+    <br>
+    <input type="submit" value="Abone Ol">
+</form>
+<!--Seçenek Kutusu (Radio)-->
+<h1>Seçenek Kutusu</h1>
+<form name="secenek">
+    <h2>Tuttuğunuz Takım:</h2>
+    <input type="radio" name="spor" value="futbol"> futbol
+    <input type="radio" name="spor" value="basketbol"> basketbol
+    <input type="radio" name="spor" value="voleybol"> voleybol
+    <br>
+    <input type="submit">
+</form>
+<!-- Seçenek Listesi-->
+<h1>Seçenek Listesi/Combo</h1>
+<form>
+    <select name="dyeri" id="dyeri">
+        <option>Adana</option>
+        <option>Antalya</option>
+        <option>Ankara</option>
+        <option>İstanbul</option>
+        <option>Bursa</option>
+        <option selected>İzmir</option>
+    </select>
+    <br>
+    <input type="submit" value="Gönder">
+    <input type="reset" value="iptal">   
+</form>
+
+<!--Resim ile Form Onaylama-->
+<h1>Resimli Form Onaylama</h1>
+<form name="oney" action="onay.php" method="GET">
+    Ad Soyad:<input type="text" name="adsoyad">
+    <br>
+    <input type="image" src="submit.png" width="80">
+</form>
+    
+</body>
+</html>
